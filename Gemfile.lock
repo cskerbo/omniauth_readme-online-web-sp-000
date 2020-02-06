@@ -92,6 +92,9 @@ GEM
     omniauth (1.9.0)
       hashie (>= 3.4.6, < 3.7.0)
       rack (>= 1.6.2, < 3)
+    omniauth-discord (1.0.0)
+      omniauth
+      omniauth-oauth2
     omniauth-facebook (6.0.0)
       omniauth-oauth2 (~> 1.2)
     omniauth-oauth2 (1.6.0)
@@ -176,6 +179,7 @@ DEPENDENCIES
   coffee-rails (~> 4.1.0)
   jquery-rails
   omniauth
+  omniauth-discord
   omniauth-facebook
   pry
   rails (~> 5.0)
